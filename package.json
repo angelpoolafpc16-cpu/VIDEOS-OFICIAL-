@@ -1,0 +1,20 @@
+{
+  "name": "equipo-creativo-logo-reveal",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts MainVideo out/equipo-creativo-presentacion.mp4",
+    "still": "remotion still src/index.ts MainVideo"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.230",
+    "remotion": "4.0.230",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "typescript": "5.5.4",
+    "@types/react": "18.3.3"
+  }
+}
